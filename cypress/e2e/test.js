@@ -28,5 +28,7 @@ describe("Almosafer Hotel Search Test", () => {
       cy.log(`Selected language: ${lang}`);
       cy.log(`Available locations: ${locations.join(", ")}`);
       return locations[randomIndex];
+
     }
+    
 });
